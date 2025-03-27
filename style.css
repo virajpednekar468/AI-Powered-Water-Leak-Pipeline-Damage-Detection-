@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: poppins;
+}
+body {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main{
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background: linear-gradient(rgb(124, 209, 226),rgb(146, 146, 212));
+    /* background-color: black; */
+    height: 100vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.container{
+    width: 99.5%;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    display: block;
+    height: 10px;
+    margin: 10px auto;
+    padding: 8px;
+    background: linear-gradient(rgb(124, 201, 231),rgb(91, 91, 164));
+    border-radius: 20px;
+    transition: all 400ms ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+input:hover{
+    transform: scale(1.02);
+    background: linear-gradient(rgb(102, 165, 190),rgb(91, 91, 164));
+}
+  
+
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 10px;
+    width: 10rem;
+    background: linear-gradient(rgb(124, 201, 231),rgb(91, 91, 164));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+canvas {
+    max-width: 300px;
+    margin: 10px auto;
+ 
+    /* display: block; */
+    transition: all 400ms ease;
+}
+
+canvas:hover {
+    transform: scale(1.06);
+    border-bottom: 2px inset black;
+   
+}
+
+section{
+    width: 99.5%;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#dataChart{
+    height: 20rem;
+    width: 30%;
+    /* background-color: #28a745;    */
+    display: block;
+}
